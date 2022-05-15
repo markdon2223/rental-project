@@ -108,7 +108,7 @@ export default function EnhancedTable({
     <div className={classes.root}>
       <Paper className={classes.paper}>
         <div className={classes.searchContainer}>
-          <h2>Product List</h2>
+          <h2>Rental Project</h2>
 
           <SearchBar
             value={searched}
@@ -167,7 +167,7 @@ export default function EnhancedTable({
                         align="right"
                         className={classes.avialabiltyCell}
                         style={{
-                          color: row.availability ? "#3f51b5" : "#f50057",
+                          color: row.availability ? "##A30000" : "#5BE37D",
                         }}
                       >
                         <Chip

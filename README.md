@@ -27,17 +27,23 @@ Rental Software
 - [x] Book confirm popup
   - [x] Pop Up message 
   - [x] Confirmation whether Yes Or No
-- [ ] Return Modal
-- [ ] Return confirm popup
-- [] Confirm button
+- [x] Return Modal
+- [x] Return confirm popup
+- [x] Confirm button
 
 
 # Step 3: Resoures I have used:
 
+1.  Material UI https://mui.com/
+2. Date Range Picker https://www.daterangepicker.com/
+3. https://date-fns.org/
+4. https://jestjs.io/docs/tutorial-react 
+
+
 
 # Step 4: Figuring out how to store data as it suggested not to use backend 
 
-As it's recomanded not to use backend, so we don't have any database without data.json file. So, i figured out Js has already awesome solution that ia localStorage/sessionStorage oobject. So for fetching & storing data I have used localStorage.
+As it's recommended not to use backend, so we don't have any database. So, i figured out Js has already awesome solution that ia localStorage/sessionStorage oobject. So for fetching & storing data I have used localStorage.
 
 # Getting Started with Create React App
 

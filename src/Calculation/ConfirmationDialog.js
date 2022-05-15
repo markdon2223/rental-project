@@ -5,8 +5,8 @@ import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from "@material-ui/core/DialogContent";
 import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
-import {calculateBookingCost} from "../../../Calculation/BookingCost";
-import {DifferenceInDay} from "../../../Calculation/DifferenceInDay";
+import {calculateBookingCost} from "./BookingCost";
+import {DifferenceInDay} from "./DifferenceInDay";
 
 export default function ConfirmationDialog({
   open,

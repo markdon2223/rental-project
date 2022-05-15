@@ -3,7 +3,7 @@ import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core";
 import Snackbar from "@material-ui/core/Snackbar";
 import CheckoutDialog from "./components/CheckoutDialog";
-import ConfirmationDialog from "./components/ConfirmationDialog";
+import ConfirmationDialog from "../../Calculation/ConfirmationDialog";
 import ButtonGroup from "./components/ButtonGroup";
 import {storeBooking} from "../../localStorage/storeBooking"
 import {storeReturn} from "../../localStorage/storeReturn"

@@ -18,7 +18,7 @@ export default function ButtonGroup({ handleOpenCheckoutDialog, selectedRow }) {
     <div className={classes.container}>
       <Button
         variant="contained"
-        color="primary"
+        color="#4caf50"
         onClick={() => handleOpenCheckoutDialog("book")}
        
         className={classes.button}
@@ -27,7 +27,7 @@ export default function ButtonGroup({ handleOpenCheckoutDialog, selectedRow }) {
       </Button>
       <Button
         variant="contained"
-        color="secondary"
+        color="#01579b"
         onClick={() => handleOpenCheckoutDialog("return")}
        
         className={classes.button}
