@@ -15,6 +15,7 @@ import useStyles from "./styles/tableStyle";
 import { getComparator, stableSort } from "./utils/tableUtils";
 import { withStyles } from "@material-ui/styles";
 import RotateLeftIcon from "@material-ui/icons/RotateLeft";
+import TablePagination from "@material-ui/core/TablePagination";
 
 const CustomTableCell = withStyles((theme) => ({
   root: {
@@ -108,7 +109,7 @@ export default function EnhancedTable({
     <div className={classes.root}>
       <Paper className={classes.paper}>
         <div className={classes.searchContainer}>
-          <h2>Rental Project</h2>
+          <h2>Rental Software</h2>
 
           <SearchBar
             value={searched}
@@ -197,6 +198,15 @@ export default function EnhancedTable({
             </TableBody>
           </Table>
         </TableContainer>
+        <TablePagination
+          rowsPerPageOptions={[10, 20, 25]}
+          component="div"
+          count={rows.length}
+          rowsPerPage={rowsPerPage}
+          page={page}
+          onPageChange={handleChangePage}
+          onRowsPerPageChange={handleChangeRowsPerPage}
+        />
       </Paper>
     </div>
   );
